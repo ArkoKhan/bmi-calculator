@@ -1,0 +1,72 @@
+* {
+  font-family: arial;
+  color: black;
+}
+
+h1 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+form {
+  margin: 10px auto;
+  padding: 10px;
+  border: 5px solid blue;
+  border-radius: 30px;
+  width: 300px;
+}
+
+label {
+  margin: 5px 0;
+  padding-right: 3px;
+  width: 30%;
+}
+
+input {
+  margin: 5px 0;
+  width: 60%;
+  border-radius: 20px;
+  background-color: rgb(222, 220, 218);
+  color: black;
+  text-align: center;
+}
+
+form > span {
+  padding-left: 3px;
+  width: 10%;
+}
+form .btn {
+  display: block;
+  margin: 5px auto;
+  padding: 5px 15px;
+  background-color: rgb(109, 21, 21);
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+form .btn:hover {
+  background-color: rgb(179, 49, 49);
+}
+
+.result {
+  margin: 10px auto;
+  padding: 10px;
+  border: 5px solid rgb(30, 30, 30);
+  border-radius: 15px;
+  width: 300px;
+  color: white;
+  background-color: rgb(45, 45, 118);
+}
+
+.result p {
+  text-align: center;
+  color: white;
+  font-weight: 800;
+}
+
+.result span {
+  font-weight: 400;
+  color: rgb(51, 255, 65);
+}
